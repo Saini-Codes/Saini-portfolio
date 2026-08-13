@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..900&family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Bricolage Grotesque', 'Outfit', system-ui, sans-serif;
+  --font-mono: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-mihir: 'Bricolage Grotesque', 'Archivo', system-ui, sans-serif;
+  --font-bricolage: 'Bricolage Grotesque', system-ui, sans-serif;
+
+  /* Premium curated palette variables that adjust smoothly with state */
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-bg: var(--brand-bg);
+  --color-brand-card: var(--brand-card);
+  --color-brand-border: var(--brand-border);
+  --color-brand-text: var(--brand-text);
+  --color-brand-text-muted: var(--brand-text-muted);
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-accent-glow: var(--brand-accent-glow);
+}
+
+:root {
+  /* Default: Dark Theme — Sleek Matte Obsidian */
+  --brand-primary: #F4F4F5;
+  --brand-bg: #09090b;
+  --brand-card: #121215;
+  --brand-border: #232329;
+  --brand-text: #F4F4F5;
+  --brand-text-muted: #909099;
+  --brand-accent: #d4a0b0; /* warm matte rose accent */
+  --brand-accent-glow: rgba(212, 160, 176, 0.08);
+  color-scheme: dark;
+}
+
+:root.light {
+  /* Light Theme — Warm Minimal Matte Off-White */
+  --brand-primary: #18181B;
+  --brand-bg: #FAF9F6;
+  --brand-card: #FFFFFF;
+  --brand-border: #E7E3DB;
+  --brand-text: #18181B;
+  --brand-text-muted: #71717A;
+  --brand-accent: #a86579; /* warm matte rose accent */
+  --brand-accent-glow: rgba(168, 101, 121, 0.08);
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(10, 11, 16, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.light .glass {
+  background: rgba(248, 250, 252, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--brand-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-accent);
+}
+
+/* CSS-only infinite marquee */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  width: max-content;
+  animation: marquee-reverse 30s linear infinite;
+}
+
+.animate-marquee:hover,
+.animate-marquee-reverse:hover {
+  animation-play-state: paused;
+}
+
+/* Fade-in animations for section titles */
+.section-fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Technology Hover Glow Shadows */
+.glow-ts:hover {
+  box-shadow: 0 0 20px rgba(49, 120, 198, 0.15);
+  border-color: rgba(49, 120, 198, 0.4) !important;
+}
+.glow-react:hover {
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.15);
+  border-color: rgba(56, 189, 248, 0.4) !important;
+}
+.glow-node:hover {
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.15);
+  border-color: rgba(34, 197, 94, 0.4) !important;
+}
+.glow-python:hover {
+  box-shadow: 0 0 20px rgba(254, 240, 138, 0.15);
+  border-color: rgba(254, 240, 138, 0.4) !important;
+}
+.glow-docker:hover {
+  box-shadow: 0 0 20px rgba(29, 161, 242, 0.15);
+  border-color: rgba(29, 161, 242, 0.4) !important;
+}
+.glow-db:hover {
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.15);
+  border-color: rgba(239, 68, 68, 0.4) !important;
+}
+.glow-ai:hover {
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.15);
+  border-color: rgba(168, 85, 247, 0.4) !important;
+}
+.glow-git:hover {
+  box-shadow: 0 0 20px rgba(240, 80, 50, 0.15);
+  border-color: rgba(240, 80, 50, 0.4) !important;
+}
+.glow-mobile:hover {
+  box-shadow: 0 0 20px rgba(164, 198, 57, 0.15);
+  border-color: rgba(164, 198, 57, 0.4) !important;
+}
+
+/* Recruiter Mode overrides to disable animations and transitions for print-ready view */
+.recruiter-mode,
+.recruiter-mode * {
+  animation: none !important;
+  transition: none !important;
+}
+

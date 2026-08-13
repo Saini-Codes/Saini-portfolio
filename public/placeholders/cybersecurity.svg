@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#0b1020"/>
+<rect x="45" y="45" width="1110" height="585" rx="28" fill="none" stroke="#6366f1" stroke-width="2" opacity=".7"/>
+<circle cx="1050" cy="150" r="110" fill="#6366f1" opacity=".12"/>
+<circle cx="180" cy="530" r="150" fill="#22c55e" opacity=".08"/>
+<text x="90" y="260" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">Tata Cybersecurity</text>
+<text x="90" y="325" fill="#a5b4fc" font-family="Arial, sans-serif" font-size="25">Security Analyst Job Simulation</text>
+<text x="90" y="560" fill="#94a3b8" font-family="monospace" font-size="18">SAINI PAUL • PORTFOLIO</text>
+</svg>
