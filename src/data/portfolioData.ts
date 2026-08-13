@@ -105,7 +105,7 @@ export const portfolioData: PortfolioData = {
 
   socials: {
     github: "https://github.com/saini-codes",
-    linkedin: "https://linkedin.com/in/saini_codes",
+    linkedin: "https://linkedin.com/in/saini-codes",
     email: "sainipaul.professional@gmail.com",
     leetcode: "https://leetcode.com/u/SainiPaul/",
   },
