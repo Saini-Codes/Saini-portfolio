@@ -80,7 +80,7 @@ npm run build
 
 - Portfolio: https://sainipaul.vercel.app/
 - GitHub: https://github.com/saini-codes
-- LinkedIn: https://linkedin.com/in/saini_codes
+- LinkedIn: https://linkedin.com/in/saini-codes
 - LeetCode: https://leetcode.com/u/SainiPaul/
 
 © 2026 Saini Paul
