@@ -1,86 +1,158 @@
+# Saini Paul
+
 <div align="center">
 
-# Saini Paul — Portfolio
+### Full Stack Developer · AI/ML Enthusiast · MCA Student
 
-**Personal portfolio of Saini Paul — MCA Student, Full Stack Developer & AI/ML Enthusiast**
+Building modern web applications and exploring Artificial Intelligence & Machine Learning.
 
-[![Live Site](https://img.shields.io/badge/Live-sainipaul.vercel.app-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white)](https://sainipaul.vercel.app/)
+<br>
+
+<a href="https://sainipaul.vercel.app/">
+  <img src="https://img.shields.io/badge/🌐_Portfolio-4F46E5?style=for-the-badge" alt="Portfolio">
+</a>
+<a href="https://github.com/saini-codes">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+<a href="https://linkedin.com/in/saini-codes">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
 
 </div>
 
 ---
 
-## Overview
+## About
 
-This repository contains the source code for Saini Paul's personal portfolio website. It showcases full-stack development projects, AI/ML research, technical skills, achievements, certifications, and resume information.
+I'm **Saini Paul**, an MCA student and Full Stack Developer interested in building practical software solutions and exploring AI/ML.
+
+My work covers frontend development, backend engineering, databases, cloud services, and machine learning.
+
+---
 
 ## Featured Projects
 
 ### SmartHire
 
-AI-powered recruitment and job management platform connecting students, recruiters, and administrators through a centralized hiring workflow.
+An AI-powered recruitment and job management platform connecting students, recruiters, and administrators through a centralized hiring workflow.
 
-**Tech Stack:** React, Vite, Tailwind CSS, Spring Boot, Java, MySQL, Cloudinary, REST API
+**Tech Stack**
+
+`React` `Vite` `Tailwind CSS` `Spring Boot` `Java` `MySQL` `Cloudinary` `REST API`
+
+**Features**
+
+- Student and recruiter authentication
+- Job posting and application management
+- Recruiter approval workflow
+- Applicant management
+- Resume upload and cloud storage
+- AI-based resume scoring
+- Admin dashboard
+
+---
 
 ### Online Tutor Finder
 
-Full-stack tutor discovery platform with location-based search, verified tutor profiles, email OTP authentication, and an AI chatbot.
+A full-stack tutor discovery platform that helps students find suitable tutors through location-based search and verified tutor profiles.
 
-**Tech Stack:** PHP, MySQL, HTML, CSS, JavaScript, Python, RASA
+**Tech Stack**
+
+`PHP` `MySQL` `HTML` `CSS` `JavaScript` `Python` `RASA`
+
+**Features**
+
+- Location-based tutor search
+- Verified tutor profiles
+- Email OTP authentication
+- Tutor filtering
+- AI chatbot
+
+---
 
 ### CGAN-Based Trace Augmentation for ML-KEM
 
-Machine learning research project using Conditional GANs to generate synthetic side-channel traces and augment datasets for ML-KEM side-channel analysis.
+A machine learning research project using Conditional GANs to generate synthetic side-channel traces and augment datasets for ML-KEM side-channel analysis.
 
-**Tech Stack:** Python, TensorFlow, GAN, Machine Learning, ML-KEM
+**Tech Stack**
 
-## Achievements
+`Python` `TensorFlow` `GAN` `Machine Learning` `ML-KEM`
 
-- Best Paper Award — CGAN-Based Trace Augmentation for ML-KEM
-- Inter-College Poster Making participation
+**Achievement**
 
-## Education
+**Best Paper Award**
 
-**MCA — Techno India, Hooghly**  
-2025–2027  
-CGPA: 8.82
+---
 
 ## Tech Stack
 
-| Area | Technologies |
-|---|---|
-| Languages | Python, Java, C++, HTML/CSS, TypeScript, JavaScript |
-| Frameworks | React, Node.js, Tailwind CSS, Spring Boot |
-| Databases | MySQL, PostgreSQL, MongoDB, SQL |
-| Tools | Git, GitHub Actions, Vite, Linux, Postman, Vercel, Cloudinary |
-| AI/ML | PyTorch, TensorFlow, Scikit-Learn, GAN, RASA |
+<div align="center">
 
-## Running Locally
+### Languages
+
+<img src="https://skillicons.dev/icons?i=python,java,cpp,javascript,typescript,html,css" />
+
+<br><br>
+
+### Frontend & Backend
+
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,nodejs,spring,php" />
+
+<br><br>
+
+### Databases & Tools
+
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,git,github,linux,postman,vercel" />
+
+<br><br>
+
+### AI / ML
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
+
+</div>
+
+---
+
+## Education
+
+### Master of Computer Applications
+
+**Techno India, Hooghly**
+
+`2025 – 2027`
+
+**CGPA: 8.82**
+
+---
+
+## Achievements
+
+- **Best Paper Award** — CGAN-Based Trace Augmentation for ML-KEM
+- **Inter-College Poster Making** — Participant
+
+---
+
+## Portfolio
+
+<div align="center">
+
+<a href="https://sainipaul.vercel.app/">
+  <img src="https://img.shields.io/badge/Visit_My_Portfolio-4F46E5?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Portfolio">
+</a>
+
+<br><br>
+
+Explore my projects, skills, certifications, achievements, and resume.
+
+</div>
+
+---
+
+## Run Locally
+
+### 1. Clone the repository
 
 ```bash
-npm install
-npm run dev
-```
-
-Open:
-
-```text
-http://localhost:5173
-```
-
-For a production build:
-
-```bash
-npm run build
-```
-
-## Author
-
-**Saini Paul**
-
-- Portfolio: https://sainipaul.vercel.app/
-- GitHub: https://github.com/saini-codes
-- LinkedIn: https://linkedin.com/in/saini-codes
-- LeetCode: https://leetcode.com/u/SainiPaul/
-
-© 2026 Saini Paul
+git clone <repository-url>
+cd <project-directory>
