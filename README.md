@@ -148,11 +148,3 @@ Explore my projects, skills, certifications, achievements, and resume.
 </div>
 
 ---
-
-## Run Locally
-
-### 1. Clone the repository
-
-```bash
-git clone <repository-url>
-cd <project-directory>
