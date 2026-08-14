@@ -18,33 +18,35 @@
   --color-brand-accent: var(--brand-accent);
   --color-brand-accent-glow: var(--brand-accent-glow);
 }
-
 :root {
-  /* Default: Dark Theme — Sleek Matte Obsidian */
-  --brand-primary: #F4F4F5;
-  --brand-bg: #09090b;
-  --brand-card: #121215;
-  --brand-border: #232329;
-  --brand-text: #F4F4F5;
-  --brand-text-muted: #909099;
-  --brand-accent: #d4a0b0; /* warm matte rose accent */
-  --brand-accent-glow: rgba(212, 160, 176, 0.08);
+  /* Dark Theme — Premium Pink */
+  --brand-primary: #FFF1F7;
+  --brand-bg: #0D080B;
+  --brand-card: #170D12;
+  --brand-border: #38202B;
+  --brand-text: #FFF1F7;
+  --brand-text-muted: #B9A0AB;
+
+  --brand-accent: #F472B6;
+  --brand-accent-glow: rgba(244, 114, 182, 0.16);
+
   color-scheme: dark;
 }
 
 :root.light {
-  /* Light Theme — Warm Minimal Matte Off-White */
-  --brand-primary: #18181B;
-  --brand-bg: #FAF9F6;
+  /* Light Theme — Soft Pink */
+  --brand-primary: #3F1728;
+  --brand-bg: #FFF7FA;
   --brand-card: #FFFFFF;
-  --brand-border: #E7E3DB;
-  --brand-text: #18181B;
-  --brand-text-muted: #71717A;
-  --brand-accent: #a86579; /* warm matte rose accent */
-  --brand-accent-glow: rgba(168, 101, 121, 0.08);
+  --brand-border: #F1D5E1;
+  --brand-text: #3F1728;
+  --brand-text-muted: #806A74;
+
+  --brand-accent: #DB2777;
+  --brand-accent-glow: rgba(219, 39, 119, 0.10);
+
   color-scheme: light;
 }
-
 html {
   scroll-behavior: smooth;
 }

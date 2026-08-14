@@ -213,8 +213,6 @@ export const portfolioData: PortfolioData = {
         "React frontend communicates with a Spring Boot REST API. The backend manages authentication, users, jobs, recruiters, applications, and resume processing. MySQL stores application data while Cloudinary stores uploaded resumes.",
 
       futureImprovements: [
-        "JWT-based authentication and refresh tokens.",
-        "Advanced AI resume and job matching.",
         "Recruiter analytics dashboard.",
         "Automated email notifications.",
         "Interview scheduling and calendar integration.",
@@ -223,7 +221,7 @@ export const portfolioData: PortfolioData = {
 
       githubUrl: "https://github.com/Jit-codes-ez/SmartHire",
 
-      liveUrl: "https://sainipaul.vercel.app/",
+      liveUrl: "https://smarthire-x-ai.vercel.app/",
 
       image: "/placeholders/smarthire.svg",
 
